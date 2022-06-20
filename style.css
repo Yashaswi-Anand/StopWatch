@@ -1,0 +1,67 @@
+html body{
+    background-color: aliceblue;
+}
+
+.parent{
+    display: grid;
+    align-content: center;    /* aligns vertically */
+    justify-content: center;  /* aligns horizontally */
+}
+
+.timer-style{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+.button-style{
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    margin-right: 8px;
+    margin-top: 10px;
+}
+
+
+/* css utlity */
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.mt{
+    margin-top: 80px;
+}
+
+.center{
+    text-align: center;
+}
+
+
+/* Media Query */
+@media only screen and (max-width: 450px) {
+    img{
+        height: 80%;
+        width: 80%;
+    }
+    
+    .mt{
+        margin-top: 250px;
+    }
+
+    .timer-style{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .mt{
+        margin-top: 250px;
+    }
+
+
+}

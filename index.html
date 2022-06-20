@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <!-- fabicon -->
+    <link rel="shortcut icon" href="https://i.gifer.com/7kfO.gif" type="image/x-icon">
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-center m-4 " style="height: 500px">
+            <div class="card border-success mt" style="width: 80%;">
+                <!-- card header -->
+                <div class="card-header bg-transparent border-success p-3 center h3 text-info ">STOP WATCH</div>
+
+                <!-- card body -->
+                <div class="container card-body p-5">
+                    <div class="row" style="height: 100%;">
+
+                        <div class="col-md-4">
+                            <img src="https://i.gifer.com/7kfO.gif" alt="stopwatch-gif">
+                        </div>
+                        <div class="col-md-8 parent">
+                            <div>
+                               
+                                <div class="p-3 timer-style">
+                                    <span>00</span>:<span>00</span>:<span>00</span>
+                                </div>
+
+                                <div class="p-3 center">
+                                    <button class="bg-success button-style" name="start">START</button>
+                                    <button class="bg-danger button-style" name="stop">STOP &nbsp;</button>
+                                    <button class="bg-warning button-style" name="reset">RESET</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- <div class="parent" style="background-color: red;">
+                            <div class="row">
+                                <div class="col-3 border border-danger">col 1</div>
+                                <div class="col-1 border border-danger">col 1</div>
+                                <div class="col-1 border border-danger">col 1</div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+
+                <!-- card footer -->
+                <div class="card-footer bg-transparent border-success p-3">Footer</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="/index.js"></script>
+</html>
