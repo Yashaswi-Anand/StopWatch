@@ -17,6 +17,6 @@
 <h3> ScreenShots: </h3>
 
 <div>
-    <img src="./screenshots/stopWatch_1.png"  style="display:inline-block"/>
-    <img src="./screenshots/stopWatch_2.png"  style="display:inline-block"/>
+    <img src="./screenshots/stopWatch_1.png"  style="display:inline-block; border-radius: 30px;"/>
+    <img src="./screenshots/stopWatch_2.png"  style="display:inline-block; border-radius: 30px;" />
 </div>
