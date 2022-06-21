@@ -1,19 +1,22 @@
 html body{
-    background-color: aliceblue;
+    background-color: rgb(158, 245, 158);
 }
 
-.parent{
+.parent-container{
     display: grid;
     align-content: center;    /* aligns vertically */
     justify-content: center;  /* aligns horizontally */
 }
 
+/* timer digits styling */
 .timer-style{
     text-align: center;
     font-size: 50px;
     color: black;
+    font-style: italic;
 }
 
+/* Button styling */
 .button-style{
     text-align: center;
     font-size: 20px;
@@ -23,29 +26,35 @@ html body{
     padding: 10px 40px;
     margin-right: 8px;
     margin-top: 10px;
+    font-style: italic;
 }
 
+/* bottom gif image */
+#bottom-img img{
+    height: 150px;
+    width: 100%;
+}
 
-/* css utlity */
+/* CSS utlity */
 img{
     height: 100%;
     width: 100%;
 }
 
 .mt{
-    margin-top: 80px;
+    margin-top: 80px;  /* margin top */
 }
 
 .center{
-    text-align: center;
+    text-align: center;  /* aligns center */
 }
 
 
 /* Media Query */
 @media only screen and (max-width: 450px) {
     img{
-        height: 80%;
-        width: 80%;
+        height:90%;
+        width: 90%;
     }
     
     .mt{
@@ -61,7 +70,6 @@ img{
 
     .mt{
         margin-top: 250px;
+        margin-bottom: 80px;
     }
-
-
 }

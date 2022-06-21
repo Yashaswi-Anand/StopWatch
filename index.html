@@ -11,53 +11,52 @@
     <link rel="stylesheet" href="./style.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
 </head>
+
 <body>
 
-    <div class="container">
-        <div class="d-flex align-items-center justify-content-center m-4 " style="height: 500px">
-            <div class="card border-success mt" style="width: 80%;">
-                <!-- card header -->
-                <div class="card-header bg-transparent border-success p-3 center h3 text-info ">STOP WATCH</div>
-
-                <!-- card body -->
-                <div class="container card-body p-5">
-                    <div class="row" style="height: 100%;">
-
-                        <div class="col-md-4">
-                            <img src="https://i.gifer.com/7kfO.gif" alt="stopwatch-gif">
-                        </div>
-                        <div class="col-md-8 parent">
-                            <div>
-                               
-                                <div class="p-3 timer-style">
-                                    <span>00</span>:<span>00</span>:<span>00</span>
+    <main>
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center m-4 " style="height: 500px">
+                <div class="card border-success mt" style="width: 80%;">
+                    <!-- card header -->
+                    <div class="card-header bs-gray-400 bg-opacity-25 border-success p-3 center h3 text-success ">STOP WATCH</div>
+    
+                    <!-- card body -->
+                    <div class="container card-body p-5">
+                        <div class="row" style="height: 70%;">
+    
+                            <div class="col-md-4">
+                                <img src="https://i.gifer.com/7kfO.gif" alt="stopwatch-gif">
+                            </div>
+                            <div class="col-md-8 parent-container">
+                                <div>
+                                   
+                                    <!-- Timer Digit -->
+                                    <div class="p-3 timer-style">
+                                        <span>00</span>:<span>00</span>:<span>00</span>
+                                    </div>
+    
+                                    <!-- Button -->
+                                    <div class="p-3 center">
+                                        <button class="bg-success button-style" name="start">START</button>
+                                        <button class="bg-danger button-style" name="stop">STOP &nbsp;</button>
+                                        <button class="bg-warning button-style" name="reset">RESET</button>
+                                    </div>
+    
                                 </div>
-
-                                <div class="p-3 center">
-                                    <button class="bg-success button-style" name="start">START</button>
-                                    <button class="bg-danger button-style" name="stop">STOP &nbsp;</button>
-                                    <button class="bg-warning button-style" name="reset">RESET</button>
-                                </div>
-
                             </div>
                         </div>
-                        <!-- <div class="parent" style="background-color: red;">
-                            <div class="row">
-                                <div class="col-3 border border-danger">col 1</div>
-                                <div class="col-1 border border-danger">col 1</div>
-                                <div class="col-1 border border-danger">col 1</div>
-                            </div>
-                        </div> -->
+                    </div>
+    
+                    <!-- Bottom Gif Image -->
+                    <div id="bottom-img">
+                        <img src="http://genesisconsultingonline.com/images/animate-grass72.gif" alt="gif">
                     </div>
                 </div>
-
-                <!-- card footer -->
-                <div class="card-footer bg-transparent border-success p-3">Footer</div>
             </div>
         </div>
-    </div>
+    </main>
 </body>
 
 <!-- JavaScript Bundle with Popper -->
