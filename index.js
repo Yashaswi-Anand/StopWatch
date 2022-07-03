@@ -23,7 +23,8 @@ start[0].addEventListener('click', function() {
         mSecond.innerHTML = mSecond.innerHTML < 10 ? '0' + mSecond.innerHTML : mSecond.innerHTML;
 
         // running second timer
-        if (mSecond.innerHTML == 99) {
+        // if millisecond is 99, then reset the msecond timer with 0 and run second timer
+        if (mSecond.innerHTML == 99) { 
             mSecond.innerHTML = 0;
             second.innerHTML = parseInt(second.innerHTML) + 1;
             second.innerHTML = second.innerHTML < 10 ? '0' + second.innerHTML : second.innerHTML;
@@ -31,7 +32,8 @@ start[0].addEventListener('click', function() {
         //second.innerHTML = second.innerHTML < 10 ? '0' + second.innerHTML : second.innerHTML;
 
         // running minute timer
-        if (second.innerHTML == 59) {
+        // if second is 59, then reset the second timer with 0 and run minute timer
+        if (second.innerHTML == 59) { 
             second.innerHTML = 0;
             minute.innerHTML = parseInt(minute.innerHTML) + 1;
             minute.innerHTML = minute.innerHTML < 10 ? '0' + minute.innerHTML : minute.innerHTML;
@@ -41,7 +43,7 @@ start[0].addEventListener('click', function() {
 });
 
 // stop button
-stop[0].addEventListener('click', function(){
+stop[0].addEventListener('click', function(){ 
     clearInterval(interval);
 });
 
